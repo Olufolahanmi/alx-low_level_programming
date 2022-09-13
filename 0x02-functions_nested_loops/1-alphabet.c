@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - this function prints tha alphabet a-z
  */
 void print_alphabet(void)
 {
@@ -12,6 +10,7 @@ void print_alphabet(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		_putchar(alpha);
-		_putchar('\n');
 	}
+
+		_putchar('\n');
 }
